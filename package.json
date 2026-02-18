@@ -10,9 +10,12 @@
     "api": "node server/index.js"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.7.5",
     "next": "14.2.18",
+    "openai": "^4.104.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sql.js": "^1.14.0"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
